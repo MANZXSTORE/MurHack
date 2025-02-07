@@ -532,7 +532,7 @@ Untuk Menggunakan Fitur Ini Anda Harus Jalankan Dengan Memasukan Perintah Di Baw
           except Exception as e:
               os.system('rm -rf data/IG-login.txt')
               exit(f'\n{P}[{K}!{P}] Csrftoken tidak tersedia, dump tidak akan berjalan: {e}')
-       self.MyRich('[white]Masukan username akun instagram Pastikan (Target Memiliki Followers, Akun Bersifat Publik, Tidak Centang Biru) Ingin banyak target gunakan tanda koma sebagai pemisah contohnya [green](xyraacode,Lylii)[/]',True)
+       self.MyRich('[white]Masukan username akun instagram Pastikan (Target Memiliki Followers, Akun Bersifat Publik, Tidak Centang Biru) Ingin banyak target gunakan tanda koma sebagai pemisah contohnya [green](manz,pacar_lia,manzganteng)[/]',True)
        users = Console(style=Tema[0]).input(f'   └──> ').split(',')
        try:
            for self.y in users:
