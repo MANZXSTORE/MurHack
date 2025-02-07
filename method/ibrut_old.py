@@ -238,7 +238,7 @@ Akun CP Di Simpan Di Folder : data/CP-Instagram-{file_ok}\n\
 
        if self.ResultSuccess !=0 or self.ResultChechpoint !=0:
           self.total = self.ResultSuccess + self.ResultChechpoint
-          print(f'\n\n{P} Crack Selesai\n\n Anda Mendapatkan {self.total} akun\n Akun OK : {H}{self.ResultSuccess}{P}\n Akun CP : {K2}{self.ResultChechpoint}{P}\n\n Terima Kasih Telah Menggunakan Tools Ini\n \t- {H}xyraacode Dev {P}-')
+          print(f'\n\n{P} Crack Selesai\n\n Anda Mendapatkan {self.total} akun\n Akun OK : {H}{self.ResultSuccess}{P}\n Akun CP : {K2}{self.ResultChechpoint}{P}\n\n Terima Kasih Telah Menggunakan Tools Ini\n \t- {H}MANZ X STORE {P}-')
           exit(0)
        else:
           print(f'\n\n{P} Crack Selesai\n{K2} Ups Anda Tidak Mendapatkan Hasil Kali Ini\n{K2} Silahkan Ganti Target Dan Pastikan Tidak Menggunakan Wifi')
